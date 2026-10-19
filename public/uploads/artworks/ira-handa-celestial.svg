@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <rect width="100%" height="100%" fill="#FAF7F2" />
+  <circle cx="400" cy="400" r="370" fill="none" stroke="#72121E" stroke-width="3" />
+  <circle cx="400" cy="400" r="355" fill="none" stroke="#D4AF37" stroke-width="2" />
+  <path d="M 670.0 400.0 L 742.0 445.0 L 660.8 469.9 Z" fill="#D4AF37" fill-opacity="0.3" stroke="#72121E" stroke-width="2" />
+  <path d="M 660.8 469.9 L 718.7 532.0 L 633.8 535.0 Z" fill="#D4AF37" fill-opacity="0.3" stroke="#72121E" stroke-width="2" />
+  <path d="M 633.8 535.0 L 673.7 610.0 L 590.9 590.9 Z" fill="#D4AF37" fill-opacity="0.3" stroke="#72121E" stroke-width="2" />
+  <path d="M 590.9 590.9 L 610.0 673.7 L 535.0 633.8 Z" fill="#D4AF37" fill-opacity="0.3" stroke="#72121E" stroke-width="2" />
+  <path d="M 535.0 633.8 L 532.0 718.7 L 469.9 660.8 Z" fill="#D4AF37" fill-opacity="0.3" stroke="#72121E" stroke-width="2" />
+  <path d="M 469.9 660.8 L 445.0 742.0 L 400.0 670.0 Z" fill="#D4AF37" fill-opacity="0.3" stroke="#72121E" stroke-width="2" />
+  <path d="M 400.0 670.0 L 355.0 742.0 L 330.1 660.8 Z" fill="#D4AF37" fill-opacity="0.3" stroke="#72121E" stroke-width="2" />
+  <path d="M 330.1 660.8 L 268.0 718.7 L 265.0 633.8 Z" fill="#D4AF37" fill-opacity="0.3" stroke="#72121E" stroke-width="2" />
+  <path d="M 265.0 633.8 L 190.0 673.7 L 209.1 590.9 Z" fill="#D4AF37" fill-opacity="0.3" stroke="#72121E" stroke-width="2" />
+  <path d="M 209.1 590.9 L 126.3 610.0 L 166.2 535.0 Z" fill="#D4AF37" fill-opacity="0.3" stroke="#72121E" stroke-width="2" />
+  <path d="M 166.2 535.0 L 81.3 532.0 L 139.2 469.9 Z" fill="#D4AF37" fill-opacity="0.3" stroke="#72121E" stroke-width="2" />
+  <path d="M 139.2 469.9 L 58.0 445.0 L 130.0 400.0 Z" fill="#D4AF37" fill-opacity="0.3" stroke="#72121E" stroke-width="2" />
+  <path d="M 130.0 400.0 L 58.0 355.0 L 139.2 330.1 Z" fill="#D4AF37" fill-opacity="0.3" stroke="#72121E" stroke-width="2" />
+  <path d="M 139.2 330.1 L 81.3 268.0 L 166.2 265.0 Z" fill="#D4AF37" fill-opacity="0.3" stroke="#72121E" stroke-width="2" />
+  <path d="M 166.2 265.0 L 126.3 190.0 L 209.1 209.1 Z" fill="#D4AF37" fill-opacity="0.3" stroke="#72121E" stroke-width="2" />
+  <path d="M 209.1 209.1 L 190.0 126.3 L 265.0 166.2 Z" fill="#D4AF37" fill-opacity="0.3" stroke="#72121E" stroke-width="2" />
+  <path d="M 265.0 166.2 L 268.0 81.3 L 330.1 139.2 Z" fill="#D4AF37" fill-opacity="0.3" stroke="#72121E" stroke-width="2" />
+  <path d="M 330.1 139.2 L 355.0 58.0 L 400.0 130.0 Z" fill="#D4AF37" fill-opacity="0.3" stroke="#72121E" stroke-width="2" />
+  <path d="M 400.0 130.0 L 445.0 58.0 L 469.9 139.2 Z" fill="#D4AF37" fill-opacity="0.3" stroke="#72121E" stroke-width="2" />
+  <path d="M 469.9 139.2 L 532.0 81.3 L 535.0 166.2 Z" fill="#D4AF37" fill-opacity="0.3" stroke="#72121E" stroke-width="2" />
+  <path d="M 535.0 166.2 L 610.0 126.3 L 590.9 209.1 Z" fill="#D4AF37" fill-opacity="0.3" stroke="#72121E" stroke-width="2" />
+  <path d="M 590.9 209.1 L 673.7 190.0 L 633.8 265.0 Z" fill="#D4AF37" fill-opacity="0.3" stroke="#72121E" stroke-width="2" />
+  <path d="M 633.8 265.0 L 718.7 268.0 L 660.8 330.1 Z" fill="#D4AF37" fill-opacity="0.3" stroke="#72121E" stroke-width="2" />
+  <path d="M 660.8 330.1 L 742.0 355.0 L 670.0 400.0 Z" fill="#D4AF37" fill-opacity="0.3" stroke="#72121E" stroke-width="2" />
+  <circle cx="400" cy="400" r="260" fill="none" stroke="#72121E" stroke-width="3" />
+  <circle cx="400" cy="400" r="248" fill="none" stroke="#D4AF37" stroke-width="1.5" stroke-dasharray="4,4" />
+  <circle cx="400" cy="400" r="230" fill="#FFFDF9" stroke="#72121E" stroke-width="3" />
+  <path d="M 400,190 A 210,210 0 0,0 400,610 A 150,150 0 0,1 400,190 Z" fill="#D4AF37" fill-opacity="0.25" stroke="#72121E" stroke-width="2.5" />
+  <line x1="400" y1="400" x2="540.0" y2="400.0" stroke="#72121E" stroke-width="2" />
+  <circle cx="540.0" cy="400.0" r="6" fill="#D4AF37" stroke="#72121E" stroke-width="1.5" />
+  <line x1="400" y1="400" x2="521.2" y2="470.0" stroke="#72121E" stroke-width="2" />
+  <circle cx="521.2" cy="470.0" r="6" fill="#D4AF37" stroke="#72121E" stroke-width="1.5" />
+  <line x1="400" y1="400" x2="470.0" y2="521.2" stroke="#72121E" stroke-width="2" />
+  <circle cx="470.0" cy="521.2" r="6" fill="#D4AF37" stroke="#72121E" stroke-width="1.5" />
+  <line x1="400" y1="400" x2="400.0" y2="540.0" stroke="#72121E" stroke-width="2" />
+  <circle cx="400.0" cy="540.0" r="6" fill="#D4AF37" stroke="#72121E" stroke-width="1.5" />
+  <line x1="400" y1="400" x2="330.0" y2="521.2" stroke="#72121E" stroke-width="2" />
+  <circle cx="330.0" cy="521.2" r="6" fill="#D4AF37" stroke="#72121E" stroke-width="1.5" />
+  <line x1="400" y1="400" x2="278.8" y2="470.0" stroke="#72121E" stroke-width="2" />
+  <circle cx="278.8" cy="470.0" r="6" fill="#D4AF37" stroke="#72121E" stroke-width="1.5" />
+  <line x1="400" y1="400" x2="260.0" y2="400.0" stroke="#72121E" stroke-width="2" />
+  <circle cx="260.0" cy="400.0" r="6" fill="#D4AF37" stroke="#72121E" stroke-width="1.5" />
+  <line x1="400" y1="400" x2="278.8" y2="330.0" stroke="#72121E" stroke-width="2" />
+  <circle cx="278.8" cy="330.0" r="6" fill="#D4AF37" stroke="#72121E" stroke-width="1.5" />
+  <line x1="400" y1="400" x2="330.0" y2="278.8" stroke="#72121E" stroke-width="2" />
+  <circle cx="330.0" cy="278.8" r="6" fill="#D4AF37" stroke="#72121E" stroke-width="1.5" />
+  <line x1="400" y1="400" x2="400.0" y2="260.0" stroke="#72121E" stroke-width="2" />
+  <circle cx="400.0" cy="260.0" r="6" fill="#D4AF37" stroke="#72121E" stroke-width="1.5" />
+  <line x1="400" y1="400" x2="470.0" y2="278.8" stroke="#72121E" stroke-width="2" />
+  <circle cx="470.0" cy="278.8" r="6" fill="#D4AF37" stroke="#72121E" stroke-width="1.5" />
+  <line x1="400" y1="400" x2="521.2" y2="330.0" stroke="#72121E" stroke-width="2" />
+  <circle cx="521.2" cy="330.0" r="6" fill="#D4AF37" stroke="#72121E" stroke-width="1.5" />
+  <circle cx="400" cy="400" r="50" fill="#D4AF37" stroke="#72121E" stroke-width="3" />
+  <circle cx="400" cy="400" r="35" fill="#72121E" />
+  <circle cx="400" cy="400" r="15" fill="#FFFDF9" />
+</svg>

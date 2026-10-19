@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <rect width="800" height="800" fill="#FAF7F2"/>
+  <g id="mandala-body">
+    <circle cx="400" cy="400" r="352" fill="#FAF7F2" stroke="#2B2D42" stroke-width="3" stroke-dasharray="6,4" opacity="0.6"/>
+    <circle cx="400" cy="400" r="334.4" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="400" cy="400" r="117.33333333333333" fill="none" stroke="#2B2D42" stroke-width="1.5"/>
+    <circle cx="400" cy="400" r="234.66666666666666" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <path d="M 470.4 400 S 565.0711358189523 501.1557221290077 676.424756127377 514.4988829636349" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="676.424756127377" cy="514.4988829636349" r="4" fill="#6B9080" stroke="#2B2D42" stroke-width="1.5"/>
+    <path d="M 449.78031739553296 449.78031739553296 S 445.19502244250333 588.2508165889902 514.4988829636349 676.424756127377" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="514.4988829636349" cy="676.424756127377" r="4" fill="#6B9080" stroke="#2B2D42" stroke-width="1.5"/>
+    <path d="M 400 470.4 S 298.8442778709923 565.0711358189523 285.50111703636514 676.424756127377" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="285.50111703636514" cy="676.424756127377" r="4" fill="#6B9080" stroke="#2B2D42" stroke-width="1.5"/>
+    <path d="M 350.21968260446704 449.78031739553296 S 211.7491834110098 445.19502244250333 123.57524387262299 514.4988829636349" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="123.57524387262299" cy="514.4988829636349" r="4" fill="#6B9080" stroke="#2B2D42" stroke-width="1.5"/>
+    <path d="M 329.6 400 S 234.92886418104771 298.8442778709923 123.57524387262299 285.50111703636514" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="123.57524387262299" cy="285.50111703636514" r="4" fill="#6B9080" stroke="#2B2D42" stroke-width="1.5"/>
+    <path d="M 350.21968260446704 350.21968260446704 S 354.8049775574968 211.74918341100977 285.501117036365 123.5752438726231" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="285.501117036365" cy="123.5752438726231" r="4" fill="#6B9080" stroke="#2B2D42" stroke-width="1.5"/>
+    <path d="M 400 329.6 S 501.1557221290076 234.92886418104766 514.498882963635 123.57524387262305" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="514.498882963635" cy="123.57524387262305" r="4" fill="#6B9080" stroke="#2B2D42" stroke-width="1.5"/>
+    <path d="M 449.78031739553296 350.21968260446704 S 588.2508165889902 354.8049775574967 676.4247561273769 285.501117036365" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="676.4247561273769" cy="285.501117036365" r="4" fill="#6B9080" stroke="#2B2D42" stroke-width="1.5"/>
+    <circle cx="400" cy="400" r="63.36" fill="#FAF7F2" stroke="#2B2D42" stroke-width="2.5"/>
+    <circle cx="400" cy="400" r="35.2" fill="#D47A60" opacity="0.3"/>
+    <circle cx="400" cy="400" r="17.6" fill="#2B2D42"/>
+  </g>
+</svg>

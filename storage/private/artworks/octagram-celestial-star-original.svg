@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <rect width="800" height="800" fill="#FAF7F2"/>
+  <g id="mandala-body">
+    <circle cx="400" cy="400" r="352" fill="#FAF7F2" stroke="#2B2D42" stroke-width="3" stroke-dasharray="6,4" opacity="0.6"/>
+    <circle cx="400" cy="400" r="334.4" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="400" cy="400" r="50.285714285714285" fill="none" stroke="#2B2D42" stroke-width="1.5"/>
+    <circle cx="400" cy="400" r="100.57142857142857" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="400" cy="400" r="150.85714285714286" fill="none" stroke="#2B2D42" stroke-width="1.5"/>
+    <circle cx="400" cy="400" r="201.14285714285714" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="400" cy="400" r="251.42857142857142" fill="none" stroke="#2B2D42" stroke-width="1.5"/>
+    <circle cx="400" cy="400" r="301.7142857142857" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <polygon points="400,400 523.2,400 686.1809239906961,518.5400200094102 487.11555544218265,487.11555544218265" fill="none" stroke="#2B2D42" stroke-width="1.8"/>
+    <line x1="523.2" y1="400" x2="709.76" y2="400" stroke="#8A84E2" stroke-width="1.2"/>
+    <circle cx="611.2" cy="400" r="3.5" fill="#D47A60"/>
+    <polygon points="400,400 487.11555544218265,487.11555544218265 518.5400200094102,686.1809239906961 400,523.2" fill="none" stroke="#2B2D42" stroke-width="1.8"/>
+    <line x1="487.11555544218265" y1="487.11555544218265" x2="619.0333965403449" y2="619.0333965403449" stroke="#8A84E2" stroke-width="1.2"/>
+    <circle cx="549.3409521865988" cy="549.3409521865988" r="3.5" fill="#D47A60"/>
+    <polygon points="400,400 400,523.2 281.45997999058983,686.1809239906961 312.88444455781735,487.11555544218265" fill="none" stroke="#2B2D42" stroke-width="1.8"/>
+    <line x1="400" y1="523.2" x2="400" y2="709.76" stroke="#8A84E2" stroke-width="1.2"/>
+    <circle cx="400" cy="611.2" r="3.5" fill="#D47A60"/>
+    <polygon points="400,400 312.88444455781735,487.11555544218265 113.81907600930384,518.5400200094102 276.8,400" fill="none" stroke="#2B2D42" stroke-width="1.8"/>
+    <line x1="312.88444455781735" y1="487.11555544218265" x2="180.96660345965506" y2="619.0333965403449" stroke="#8A84E2" stroke-width="1.2"/>
+    <circle cx="250.65904781340117" cy="549.3409521865988" r="3.5" fill="#D47A60"/>
+    <polygon points="400,400 276.8,400 113.81907600930379,281.45997999058983 312.88444455781735,312.88444455781735" fill="none" stroke="#2B2D42" stroke-width="1.8"/>
+    <line x1="276.8" y1="400" x2="90.24000000000001" y2="400.00000000000006" stroke="#8A84E2" stroke-width="1.2"/>
+    <circle cx="188.8" cy="400" r="3.5" fill="#D47A60"/>
+    <polygon points="400,400 312.88444455781735,312.88444455781735 281.4599799905896,113.8190760093039 400,276.8" fill="none" stroke="#2B2D42" stroke-width="1.8"/>
+    <line x1="312.88444455781735" y1="312.88444455781735" x2="180.966603459655" y2="180.96660345965506" stroke="#8A84E2" stroke-width="1.2"/>
+    <circle cx="250.65904781340114" cy="250.65904781340117" r="3.5" fill="#D47A60"/>
+    <polygon points="400,400 400,276.8 518.5400200094102,113.81907600930384 487.11555544218265,312.88444455781735" fill="none" stroke="#2B2D42" stroke-width="1.8"/>
+    <line x1="400" y1="276.8" x2="399.99999999999994" y2="90.24000000000001" stroke="#8A84E2" stroke-width="1.2"/>
+    <circle cx="399.99999999999994" cy="188.8" r="3.5" fill="#D47A60"/>
+    <polygon points="400,400 487.11555544218265,312.88444455781735 686.1809239906961,281.4599799905896 523.2,399.99999999999994" fill="none" stroke="#2B2D42" stroke-width="1.8"/>
+    <line x1="487.11555544218265" y1="312.88444455781735" x2="619.0333965403449" y2="180.966603459655" stroke="#8A84E2" stroke-width="1.2"/>
+    <circle cx="549.3409521865988" cy="250.65904781340114" r="3.5" fill="#D47A60"/>
+    <circle cx="400" cy="400" r="63.36" fill="#FAF7F2" stroke="#2B2D42" stroke-width="2.5"/>
+    <circle cx="400" cy="400" r="35.2" fill="#D47A60" opacity="0.3"/>
+    <circle cx="400" cy="400" r="17.6" fill="#2B2D42"/>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <rect width="800" height="800" fill="#FAF7F2"/>
+  <g id="mandala-body">
+    <circle cx="400" cy="400" r="352" fill="#FAF7F2" stroke="#2B2D42" stroke-width="3" stroke-dasharray="6,4" opacity="0.6"/>
+    <circle cx="400" cy="400" r="334.4" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="400" cy="400" r="58.666666666666664" fill="none" stroke="#2B2D42" stroke-width="1.5"/>
+    <circle cx="400" cy="400" r="117.33333333333333" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="400" cy="400" r="176" fill="none" stroke="#2B2D42" stroke-width="1.5"/>
+    <circle cx="400" cy="400" r="234.66666666666666" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="400" cy="400" r="293.3333333333333" fill="none" stroke="#2B2D42" stroke-width="1.5"/>
+    <path d="M 470.4 400 S 575.1745173574215 482.43087084699806 684.5561096755099 492.45788471698427" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="684.5561096755099" cy="492.45788471698427" r="4" fill="#6B9080" stroke="#2B2D42" stroke-width="1.5"/>
+    <path d="M 456.9547964039963 441.3800817613901 S 493.2675113060921 569.652973256492 575.8653474859079 642.0578847169843" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="575.8653474859079" cy="642.0578847169843" r="4" fill="#6B9080" stroke="#2B2D42" stroke-width="1.5"/>
+    <path d="M 421.7547964039963 466.9543787471788 S 375.7354859819507 592.0734061744829 400 699.2" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="400" cy="699.2" r="4" fill="#6B9080" stroke="#2B2D42" stroke-width="1.5"/>
+    <path d="M 378.2452035960037 466.9543787471788 S 267.47168029220586 541.1283262687853 224.13465251409207 642.0578847169843" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="224.13465251409207" cy="642.0578847169843" r="4" fill="#6B9080" stroke="#2B2D42" stroke-width="1.5"/>
+    <path d="M 343.0452035960037 441.3800817613901 S 209.82918825892585 436.2770225037963 115.4438903244901 492.45788471698427" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="115.4438903244901" cy="492.45788471698427" r="4" fill="#6B9080" stroke="#2B2D42" stroke-width="1.5"/>
+    <path d="M 329.6 400 S 224.8254826425786 317.56912915300194 115.44389032449004 307.5421152830158" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="115.44389032449004" cy="307.5421152830158" r="4" fill="#6B9080" stroke="#2B2D42" stroke-width="1.5"/>
+    <path d="M 343.0452035960037 358.6199182386099 S 306.7324886939079 230.347026743508 224.134652514092 157.94211528301577" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="224.134652514092" cy="157.94211528301577" r="4" fill="#6B9080" stroke="#2B2D42" stroke-width="1.5"/>
+    <path d="M 378.2452035960037 333.0456212528212 S 424.2645140180493 207.92659382551707 399.99999999999994 100.80000000000001" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="399.99999999999994" cy="100.80000000000001" r="4" fill="#6B9080" stroke="#2B2D42" stroke-width="1.5"/>
+    <path d="M 421.7547964039963 333.0456212528212 S 532.5283197077941 258.87167373121474 575.8653474859079 157.9421152830157" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="575.8653474859079" cy="157.9421152830157" r="4" fill="#6B9080" stroke="#2B2D42" stroke-width="1.5"/>
+    <path d="M 456.9547964039963 358.6199182386099 S 590.1708117410742 363.7229774962037 684.5561096755099 307.5421152830157" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="684.5561096755099" cy="307.5421152830157" r="4" fill="#6B9080" stroke="#2B2D42" stroke-width="1.5"/>
+    <circle cx="400" cy="400" r="63.36" fill="#FAF7F2" stroke="#2B2D42" stroke-width="2.5"/>
+    <circle cx="400" cy="400" r="35.2" fill="#D47A60" opacity="0.3"/>
+    <circle cx="400" cy="400" r="17.6" fill="#2B2D42"/>
+  </g>
+</svg>

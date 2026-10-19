@@ -1,0 +1,272 @@
+// Prisma schema for Mandala Studio
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id           String        @id @default(cuid())
+  email        String        @unique
+  name         String?
+  passwordHash String
+  role         String        @default("CUSTOMER") // "ADMIN" or "CUSTOMER"
+  avatarUrl    String?
+  createdAt    DateTime      @default(now())
+  updatedAt    DateTime      @updatedAt
+
+  orders       Order[]
+  entitlements PurchaseEntitlement[]
+  favorites    Favorite[]
+  auditLogs    AuditLog[]
+  downloads    DownloadRecord[]
+}
+
+model Category {
+  id           String    @id @default(cuid())
+  name         String
+  slug         String    @unique
+  description  String?
+  coverImage   String?
+  displayOrder Int       @default(0)
+  isFeatured   Boolean   @default(false)
+  isPublished  Boolean   @default(true)
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+
+  artworks     Artwork[]
+
+  @@index([slug])
+  @@index([isPublished])
+}
+
+model Artwork {
+  id             String              @id @default(cuid())
+  title          String
+  slug           String              @unique
+  description    String?
+  categoryId     String
+  category       Category            @relation(fields: [categoryId], references: [id], onDelete: Restrict)
+  tags           String              @default("[]") // JSON array string
+  difficulty     String              @default("INTERMEDIATE") // "BEGINNER", "INTERMEDIATE", "ADVANCED"
+  previewImage   String
+  originalFile   String
+  isFree         Boolean             @default(false)
+  price          Float               @default(0.0)
+  license        String              @default("PERSONAL") // "PERSONAL", "COMMERCIAL"
+  isPublished    Boolean             @default(true)
+  isArchived     Boolean             @default(false)
+  displayOrder   Int                 @default(0)
+  viewsCount     Int                 @default(0)
+  favoritesCount Int                 @default(0)
+  salesCount     Int                 @default(0)
+  createdAt      DateTime            @default(now())
+  updatedAt      DateTime            @updatedAt
+
+  collections    CollectionArtwork[]
+  products       ProductArtwork[]
+  orderItems     OrderItem[]
+  entitlements   PurchaseEntitlement[]
+  favorites      Favorite[]
+
+  @@index([slug])
+  @@index([categoryId])
+  @@index([isPublished, isArchived])
+}
+
+model Collection {
+  id           String              @id @default(cuid())
+  title        String
+  slug         String              @unique
+  description  String?
+  coverImage   String?
+  price        Float?
+  isPublished  Boolean             @default(true)
+  isFeatured   Boolean             @default(false)
+  displayOrder Int                 @default(0)
+  createdAt    DateTime            @default(now())
+  updatedAt    DateTime            @updatedAt
+
+  artworks     CollectionArtwork[]
+
+  @@index([slug])
+}
+
+model CollectionArtwork {
+  id           String     @id @default(cuid())
+  collectionId String
+  collection   Collection @relation(fields: [collectionId], references: [id], onDelete: Cascade)
+  artworkId    String
+  artwork      Artwork    @relation(fields: [artworkId], references: [id], onDelete: Cascade)
+  displayOrder Int        @default(0)
+
+  @@unique([collectionId, artworkId])
+}
+
+model Product {
+  id           String              @id @default(cuid())
+  title        String
+  slug         String              @unique
+  description  String?
+  coverImage   String
+  price        Float
+  currency     String              @default("USD")
+  productType  String              @default("INDIVIDUAL_ARTWORK") // "INDIVIDUAL_ARTWORK", "COLORING_BOOK_PDF", "THEMED_BUNDLE", "PREMIUM_COLLECTION"
+  license      String              @default("PERSONAL") // "PERSONAL", "COMMERCIAL"
+  fileUrl      String?             // For private download file (PDF, ZIP, SVG)
+  isPublished  Boolean             @default(true)
+  isFeatured   Boolean             @default(false)
+  createdAt    DateTime            @default(now())
+  updatedAt    DateTime            @updatedAt
+
+  artworks     ProductArtwork[]
+  orderItems   OrderItem[]
+  entitlements PurchaseEntitlement[]
+
+  @@index([slug])
+  @@index([productType])
+}
+
+model ProductArtwork {
+  id        String   @id @default(cuid())
+  productId String
+  product   Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  artworkId String
+  artwork   Artwork  @relation(fields: [artworkId], references: [id], onDelete: Cascade)
+
+  @@unique([productId, artworkId])
+}
+
+model MediaAsset {
+  id           String   @id @default(cuid())
+  filename     String
+  originalName String
+  mimeType     String
+  sizeBytes    Int
+  width        Int?
+  height       Int?
+  path         String
+  isPrivate    Boolean  @default(false)
+  usageCount   Int      @default(0)
+  createdAt    DateTime @default(now())
+}
+
+model WebsiteContent {
+  id        String   @id @default(cuid())
+  key       String   @unique // e.g. "homepage_hero", "homepage_about", "homepage_faq", "homepage_banner", "site_settings"
+  section   String   // "hero", "about", "faq", "banner", "settings", "footer"
+  content   String   // JSON string of fields
+  updatedAt DateTime @updatedAt
+
+  @@index([key])
+  @@index([section])
+}
+
+model Order {
+  id                     String                @id @default(cuid())
+  orderNumber            String                @unique
+  userId                 String?
+  user                   User?                 @relation(fields: [userId], references: [id], onDelete: SetNull)
+  customerEmail          String
+  customerName           String
+  totalAmount            Float
+  subtotal               Float
+  discountAmount         Float                 @default(0.0)
+  currency               String                @default("USD")
+  status                 String                @default("PENDING") // "PENDING", "COMPLETED", "FAILED", "REFUNDED"
+  stripeSessionId        String?               @unique
+  stripePaymentIntentId  String?
+  createdAt              DateTime              @default(now())
+  updatedAt              DateTime              @updatedAt
+
+  items                  OrderItem[]
+  entitlements           PurchaseEntitlement[]
+
+  @@index([orderNumber])
+  @@index([status])
+}
+
+model OrderItem {
+  id          String   @id @default(cuid())
+  orderId     String
+  order       Order    @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  productId   String?
+  product     Product? @relation(fields: [productId], references: [id], onDelete: SetNull)
+  artworkId   String?
+  artwork     Artwork? @relation(fields: [artworkId], references: [id], onDelete: SetNull)
+  title       String
+  price       Float
+  licenseType String   @default("PERSONAL")
+}
+
+model PurchaseEntitlement {
+  id            String           @id @default(cuid())
+  userId        String?
+  user          User?            @relation(fields: [userId], references: [id], onDelete: SetNull)
+  orderId       String
+  order         Order            @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  productId     String?
+  product       Product?         @relation(fields: [productId], references: [id], onDelete: SetNull)
+  artworkId     String?
+  artwork       Artwork?         @relation(fields: [artworkId], references: [id], onDelete: SetNull)
+  downloadCount Int              @default(0)
+  maxDownloads  Int              @default(10)
+  expiresAt     DateTime?
+  createdAt     DateTime         @default(now())
+
+  downloads     DownloadRecord[]
+
+  @@index([userId])
+  @@index([orderId])
+}
+
+model DownloadRecord {
+  id            String              @id @default(cuid())
+  entitlementId String
+  entitlement   PurchaseEntitlement @relation(fields: [entitlementId], references: [id], onDelete: Cascade)
+  userId        String?
+  user          User?               @relation(fields: [userId], references: [id], onDelete: SetNull)
+  ipAddress     String?
+  userAgent     String?
+  downloadedAt  DateTime            @default(now())
+}
+
+model DiscountCode {
+  id             String    @id @default(cuid())
+  code           String    @unique
+  percentage     Float?    // e.g. 10.0 for 10%
+  fixedAmount    Float?    // e.g. 5.0 for $5 off
+  minOrderAmount Float?    @default(0.0)
+  isActive       Boolean   @default(true)
+  expiresAt      DateTime?
+  usesCount      Int       @default(0)
+  maxUses        Int?
+
+  @@index([code])
+}
+
+model Favorite {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  artworkId String
+  artwork   Artwork  @relation(fields: [artworkId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+
+  @@unique([userId, artworkId])
+}
+
+model AuditLog {
+  id         String   @id @default(cuid())
+  userId     String?
+  user       User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+  action     String
+  entityType String
+  entityId   String?
+  details    String?  // JSON string
+  createdAt  DateTime @default(now())
+}

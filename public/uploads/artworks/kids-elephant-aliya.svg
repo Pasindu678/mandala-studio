@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <rect width="100%" height="100%" fill="#FAF7F2" />
+  <circle cx="400" cy="400" r="370" fill="none" stroke="#2B2D42" stroke-width="4" />
+  <circle cx="400" cy="400" r="350" fill="none" stroke="#D4AF37" stroke-width="3" />
+  <circle cx="745.0" cy="400.0" r="28" fill="#FFFDF9" stroke="#2B2D42" stroke-width="3" />
+  <circle cx="745.0" cy="400.0" r="10" fill="none" stroke="#D4AF37" stroke-width="2" />
+  <circle cx="718.7" cy="532.0" r="28" fill="#FFFDF9" stroke="#2B2D42" stroke-width="3" />
+  <circle cx="718.7" cy="532.0" r="10" fill="none" stroke="#D4AF37" stroke-width="2" />
+  <circle cx="644.0" cy="644.0" r="28" fill="#FFFDF9" stroke="#2B2D42" stroke-width="3" />
+  <circle cx="644.0" cy="644.0" r="10" fill="none" stroke="#D4AF37" stroke-width="2" />
+  <circle cx="532.0" cy="718.7" r="28" fill="#FFFDF9" stroke="#2B2D42" stroke-width="3" />
+  <circle cx="532.0" cy="718.7" r="10" fill="none" stroke="#D4AF37" stroke-width="2" />
+  <circle cx="400.0" cy="745.0" r="28" fill="#FFFDF9" stroke="#2B2D42" stroke-width="3" />
+  <circle cx="400.0" cy="745.0" r="10" fill="none" stroke="#D4AF37" stroke-width="2" />
+  <circle cx="268.0" cy="718.7" r="28" fill="#FFFDF9" stroke="#2B2D42" stroke-width="3" />
+  <circle cx="268.0" cy="718.7" r="10" fill="none" stroke="#D4AF37" stroke-width="2" />
+  <circle cx="156.0" cy="644.0" r="28" fill="#FFFDF9" stroke="#2B2D42" stroke-width="3" />
+  <circle cx="156.0" cy="644.0" r="10" fill="none" stroke="#D4AF37" stroke-width="2" />
+  <circle cx="81.3" cy="532.0" r="28" fill="#FFFDF9" stroke="#2B2D42" stroke-width="3" />
+  <circle cx="81.3" cy="532.0" r="10" fill="none" stroke="#D4AF37" stroke-width="2" />
+  <circle cx="55.0" cy="400.0" r="28" fill="#FFFDF9" stroke="#2B2D42" stroke-width="3" />
+  <circle cx="55.0" cy="400.0" r="10" fill="none" stroke="#D4AF37" stroke-width="2" />
+  <circle cx="81.3" cy="268.0" r="28" fill="#FFFDF9" stroke="#2B2D42" stroke-width="3" />
+  <circle cx="81.3" cy="268.0" r="10" fill="none" stroke="#D4AF37" stroke-width="2" />
+  <circle cx="156.0" cy="156.0" r="28" fill="#FFFDF9" stroke="#2B2D42" stroke-width="3" />
+  <circle cx="156.0" cy="156.0" r="10" fill="none" stroke="#D4AF37" stroke-width="2" />
+  <circle cx="268.0" cy="81.3" r="28" fill="#FFFDF9" stroke="#2B2D42" stroke-width="3" />
+  <circle cx="268.0" cy="81.3" r="10" fill="none" stroke="#D4AF37" stroke-width="2" />
+  <circle cx="400.0" cy="55.0" r="28" fill="#FFFDF9" stroke="#2B2D42" stroke-width="3" />
+  <circle cx="400.0" cy="55.0" r="10" fill="none" stroke="#D4AF37" stroke-width="2" />
+  <circle cx="532.0" cy="81.3" r="28" fill="#FFFDF9" stroke="#2B2D42" stroke-width="3" />
+  <circle cx="532.0" cy="81.3" r="10" fill="none" stroke="#D4AF37" stroke-width="2" />
+  <circle cx="644.0" cy="156.0" r="28" fill="#FFFDF9" stroke="#2B2D42" stroke-width="3" />
+  <circle cx="644.0" cy="156.0" r="10" fill="none" stroke="#D4AF37" stroke-width="2" />
+  <circle cx="718.7" cy="268.0" r="28" fill="#FFFDF9" stroke="#2B2D42" stroke-width="3" />
+  <circle cx="718.7" cy="268.0" r="10" fill="none" stroke="#D4AF37" stroke-width="2" />
+  <circle cx="400" cy="400" r="290" fill="#FFFDF9" stroke="#2B2D42" stroke-width="3" />
+  <g transform="translate(610.0, 400.0) rotate(90.0)">
+      <!-- Elephant Head -->
+      <circle cx="0" cy="0" r="28" fill="#FAF6EF" stroke="#2B2D42" stroke-width="3" />
+      <!-- Big friendly ears -->
+      <path d="M -24,-10 C -45,-20 -40,15 -20,12 Z" fill="#FFF" stroke="#2B2D42" stroke-width="2.5" />
+      <path d="M 24,-10 C 45,-20 40,15 20,12 Z" fill="#FFF" stroke="#2B2D42" stroke-width="2.5" />
+      <!-- Curled Trunk -->
+      <path d="M -6,16 Q 0,45 16,36 Q 24,30 14,24 Q 4,28 2,16" fill="#FAF6EF" stroke="#2B2D42" stroke-width="2.5" />
+      <!-- Decorative Perehara headdress / Netthi Malaya -->
+      <path d="M -14,-12 Q 0,-26 14,-12 Z" fill="#D4AF37" stroke="#2B2D42" stroke-width="2" />
+      <circle cx="0" cy="-18" r="4" fill="#72121E" />
+      <!-- Eyes -->
+      <circle cx="-8" cy="-2" r="3" fill="#2B2D42" />
+      <circle cx="8" cy="-2" r="3" fill="#2B2D42" />
+      <!-- Little Tusks -->
+      <path d="M -10,12 Q -18,22 -14,24" stroke="#D4AF37" stroke-width="2.5" fill="none" />
+      <path d="M 10,12 Q 18,22 14,24" stroke="#D4AF37" stroke-width="2.5" fill="none" />
+    </g>
+  <g transform="translate(548.5, 548.5) rotate(135.0)">
+      <!-- Elephant Head -->
+      <circle cx="0" cy="0" r="28" fill="#FAF6EF" stroke="#2B2D42" stroke-width="3" />
+      <!-- Big friendly ears -->
+      <path d="M -24,-10 C -45,-20 -40,15 -20,12 Z" fill="#FFF" stroke="#2B2D42" stroke-width="2.5" />
+      <path d="M 24,-10 C 45,-20 40,15 20,12 Z" fill="#FFF" stroke="#2B2D42" stroke-width="2.5" />
+      <!-- Curled Trunk -->
+      <path d="M -6,16 Q 0,45 16,36 Q 24,30 14,24 Q 4,28 2,16" fill="#FAF6EF" stroke="#2B2D42" stroke-width="2.5" />
+      <!-- Decorative Perehara headdress / Netthi Malaya -->
+      <path d="M -14,-12 Q 0,-26 14,-12 Z" fill="#D4AF37" stroke="#2B2D42" stroke-width="2" />
+      <circle cx="0" cy="-18" r="4" fill="#72121E" />
+      <!-- Eyes -->
+      <circle cx="-8" cy="-2" r="3" fill="#2B2D42" />
+      <circle cx="8" cy="-2" r="3" fill="#2B2D42" />
+      <!-- Little Tusks -->
+      <path d="M -10,12 Q -18,22 -14,24" stroke="#D4AF37" stroke-width="2.5" fill="none" />
+      <path d="M 10,12 Q 18,22 14,24" stroke="#D4AF37" stroke-width="2.5" fill="none" />
+    </g>
+  <g transform="translate(400.0, 610.0) rotate(180.0)">
+      <!-- Elephant Head -->
+      <circle cx="0" cy="0" r="28" fill="#FAF6EF" stroke="#2B2D42" stroke-width="3" />
+      <!-- Big friendly ears -->
+      <path d="M -24,-10 C -45,-20 -40,15 -20,12 Z" fill="#FFF" stroke="#2B2D42" stroke-width="2.5" />
+      <path d="M 24,-10 C 45,-20 40,15 20,12 Z" fill="#FFF" stroke="#2B2D42" stroke-width="2.5" />
+      <!-- Curled Trunk -->
+      <path d="M -6,16 Q 0,45 16,36 Q 24,30 14,24 Q 4,28 2,16" fill="#FAF6EF" stroke="#2B2D42" stroke-width="2.5" />
+      <!-- Decorative Perehara headdress / Netthi Malaya -->
+      <path d="M -14,-12 Q 0,-26 14,-12 Z" fill="#D4AF37" stroke="#2B2D42" stroke-width="2" />
+      <circle cx="0" cy="-18" r="4" fill="#72121E" />
+      <!-- Eyes -->
+      <circle cx="-8" cy="-2" r="3" fill="#2B2D42" />
+      <circle cx="8" cy="-2" r="3" fill="#2B2D42" />
+      <!-- Little Tusks -->
+      <path d="M -10,12 Q -18,22 -14,24" stroke="#D4AF37" stroke-width="2.5" fill="none" />
+      <path d="M 10,12 Q 18,22 14,24" stroke="#D4AF37" stroke-width="2.5" fill="none" />
+    </g>
+  <g transform="translate(251.5, 548.5) rotate(225.0)">
+      <!-- Elephant Head -->
+      <circle cx="0" cy="0" r="28" fill="#FAF6EF" stroke="#2B2D42" stroke-width="3" />
+      <!-- Big friendly ears -->
+      <path d="M -24,-10 C -45,-20 -40,15 -20,12 Z" fill="#FFF" stroke="#2B2D42" stroke-width="2.5" />
+      <path d="M 24,-10 C 45,-20 40,15 20,12 Z" fill="#FFF" stroke="#2B2D42" stroke-width="2.5" />
+      <!-- Curled Trunk -->
+      <path d="M -6,16 Q 0,45 16,36 Q 24,30 14,24 Q 4,28 2,16" fill="#FAF6EF" stroke="#2B2D42" stroke-width="2.5" />
+      <!-- Decorative Perehara headdress / Netthi Malaya -->
+      <path d="M -14,-12 Q 0,-26 14,-12 Z" fill="#D4AF37" stroke="#2B2D42" stroke-width="2" />
+      <circle cx="0" cy="-18" r="4" fill="#72121E" />
+      <!-- Eyes -->
+      <circle cx="-8" cy="-2" r="3" fill="#2B2D42" />
+      <circle cx="8" cy="-2" r="3" fill="#2B2D42" />
+      <!-- Little Tusks -->
+      <path d="M -10,12 Q -18,22 -14,24" stroke="#D4AF37" stroke-width="2.5" fill="none" />
+      <path d="M 10,12 Q 18,22 14,24" stroke="#D4AF37" stroke-width="2.5" fill="none" />
+    </g>
+  <g transform="translate(190.0, 400.0) rotate(270.0)">
+      <!-- Elephant Head -->
+      <circle cx="0" cy="0" r="28" fill="#FAF6EF" stroke="#2B2D42" stroke-width="3" />
+      <!-- Big friendly ears -->
+      <path d="M -24,-10 C -45,-20 -40,15 -20,12 Z" fill="#FFF" stroke="#2B2D42" stroke-width="2.5" />
+      <path d="M 24,-10 C 45,-20 40,15 20,12 Z" fill="#FFF" stroke="#2B2D42" stroke-width="2.5" />
+      <!-- Curled Trunk -->
+      <path d="M -6,16 Q 0,45 16,36 Q 24,30 14,24 Q 4,28 2,16" fill="#FAF6EF" stroke="#2B2D42" stroke-width="2.5" />
+      <!-- Decorative Perehara headdress / Netthi Malaya -->
+      <path d="M -14,-12 Q 0,-26 14,-12 Z" fill="#D4AF37" stroke="#2B2D42" stroke-width="2" />
+      <circle cx="0" cy="-18" r="4" fill="#72121E" />
+      <!-- Eyes -->
+      <circle cx="-8" cy="-2" r="3" fill="#2B2D42" />
+      <circle cx="8" cy="-2" r="3" fill="#2B2D42" />
+      <!-- Little Tusks -->
+      <path d="M -10,12 Q -18,22 -14,24" stroke="#D4AF37" stroke-width="2.5" fill="none" />
+      <path d="M 10,12 Q 18,22 14,24" stroke="#D4AF37" stroke-width="2.5" fill="none" />
+    </g>
+  <g transform="translate(251.5, 251.5) rotate(315.0)">
+      <!-- Elephant Head -->
+      <circle cx="0" cy="0" r="28" fill="#FAF6EF" stroke="#2B2D42" stroke-width="3" />
+      <!-- Big friendly ears -->
+      <path d="M -24,-10 C -45,-20 -40,15 -20,12 Z" fill="#FFF" stroke="#2B2D42" stroke-width="2.5" />
+      <path d="M 24,-10 C 45,-20 40,15 20,12 Z" fill="#FFF" stroke="#2B2D42" stroke-width="2.5" />
+      <!-- Curled Trunk -->
+      <path d="M -6,16 Q 0,45 16,36 Q 24,30 14,24 Q 4,28 2,16" fill="#FAF6EF" stroke="#2B2D42" stroke-width="2.5" />
+      <!-- Decorative Perehara headdress / Netthi Malaya -->
+      <path d="M -14,-12 Q 0,-26 14,-12 Z" fill="#D4AF37" stroke="#2B2D42" stroke-width="2" />
+      <circle cx="0" cy="-18" r="4" fill="#72121E" />
+      <!-- Eyes -->
+      <circle cx="-8" cy="-2" r="3" fill="#2B2D42" />
+      <circle cx="8" cy="-2" r="3" fill="#2B2D42" />
+      <!-- Little Tusks -->
+      <path d="M -10,12 Q -18,22 -14,24" stroke="#D4AF37" stroke-width="2.5" fill="none" />
+      <path d="M 10,12 Q 18,22 14,24" stroke="#D4AF37" stroke-width="2.5" fill="none" />
+    </g>
+  <g transform="translate(400.0, 190.0) rotate(360.0)">
+      <!-- Elephant Head -->
+      <circle cx="0" cy="0" r="28" fill="#FAF6EF" stroke="#2B2D42" stroke-width="3" />
+      <!-- Big friendly ears -->
+      <path d="M -24,-10 C -45,-20 -40,15 -20,12 Z" fill="#FFF" stroke="#2B2D42" stroke-width="2.5" />
+      <path d="M 24,-10 C 45,-20 40,15 20,12 Z" fill="#FFF" stroke="#2B2D42" stroke-width="2.5" />
+      <!-- Curled Trunk -->
+      <path d="M -6,16 Q 0,45 16,36 Q 24,30 14,24 Q 4,28 2,16" fill="#FAF6EF" stroke="#2B2D42" stroke-width="2.5" />
+      <!-- Decorative Perehara headdress / Netthi Malaya -->
+      <path d="M -14,-12 Q 0,-26 14,-12 Z" fill="#D4AF37" stroke="#2B2D42" stroke-width="2" />
+      <circle cx="0" cy="-18" r="4" fill="#72121E" />
+      <!-- Eyes -->
+      <circle cx="-8" cy="-2" r="3" fill="#2B2D42" />
+      <circle cx="8" cy="-2" r="3" fill="#2B2D42" />
+      <!-- Little Tusks -->
+      <path d="M -10,12 Q -18,22 -14,24" stroke="#D4AF37" stroke-width="2.5" fill="none" />
+      <path d="M 10,12 Q 18,22 14,24" stroke="#D4AF37" stroke-width="2.5" fill="none" />
+    </g>
+  <g transform="translate(548.5, 251.5) rotate(405.0)">
+      <!-- Elephant Head -->
+      <circle cx="0" cy="0" r="28" fill="#FAF6EF" stroke="#2B2D42" stroke-width="3" />
+      <!-- Big friendly ears -->
+      <path d="M -24,-10 C -45,-20 -40,15 -20,12 Z" fill="#FFF" stroke="#2B2D42" stroke-width="2.5" />
+      <path d="M 24,-10 C 45,-20 40,15 20,12 Z" fill="#FFF" stroke="#2B2D42" stroke-width="2.5" />
+      <!-- Curled Trunk -->
+      <path d="M -6,16 Q 0,45 16,36 Q 24,30 14,24 Q 4,28 2,16" fill="#FAF6EF" stroke="#2B2D42" stroke-width="2.5" />
+      <!-- Decorative Perehara headdress / Netthi Malaya -->
+      <path d="M -14,-12 Q 0,-26 14,-12 Z" fill="#D4AF37" stroke="#2B2D42" stroke-width="2" />
+      <circle cx="0" cy="-18" r="4" fill="#72121E" />
+      <!-- Eyes -->
+      <circle cx="-8" cy="-2" r="3" fill="#2B2D42" />
+      <circle cx="8" cy="-2" r="3" fill="#2B2D42" />
+      <!-- Little Tusks -->
+      <path d="M -10,12 Q -18,22 -14,24" stroke="#D4AF37" stroke-width="2.5" fill="none" />
+      <path d="M 10,12 Q 18,22 14,24" stroke="#D4AF37" stroke-width="2.5" fill="none" />
+    </g>
+  <circle cx="400" cy="400" r="110" fill="#FFF" stroke="#2B2D42" stroke-width="3.5" />
+  <circle cx="485.0" cy="400.0" r="22" fill="#FAF0E6" stroke="#2B2D42" stroke-width="2.5" />
+  <circle cx="460.1" cy="460.1" r="22" fill="#FAF0E6" stroke="#2B2D42" stroke-width="2.5" />
+  <circle cx="400.0" cy="485.0" r="22" fill="#FAF0E6" stroke="#2B2D42" stroke-width="2.5" />
+  <circle cx="339.9" cy="460.1" r="22" fill="#FAF0E6" stroke="#2B2D42" stroke-width="2.5" />
+  <circle cx="315.0" cy="400.0" r="22" fill="#FAF0E6" stroke="#2B2D42" stroke-width="2.5" />
+  <circle cx="339.9" cy="339.9" r="22" fill="#FAF0E6" stroke="#2B2D42" stroke-width="2.5" />
+  <circle cx="400.0" cy="315.0" r="22" fill="#FAF0E6" stroke="#2B2D42" stroke-width="2.5" />
+  <circle cx="460.1" cy="339.9" r="22" fill="#FAF0E6" stroke="#2B2D42" stroke-width="2.5" />
+  <circle cx="400" cy="400" r="45" fill="#D4AF37" stroke="#2B2D42" stroke-width="3" />
+  <circle cx="400" cy="400" r="20" fill="#72121E" />
+</svg>

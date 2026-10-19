@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <rect width="800" height="800" fill="#FAF7F2"/>
+  <g id="mandala-body">
+    <circle cx="400" cy="400" r="352" fill="#FAF7F2" stroke="#2B2D42" stroke-width="3" stroke-dasharray="6,4" opacity="0.6"/>
+    <circle cx="400" cy="400" r="334.4" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="400" cy="400" r="58.666666666666664" fill="none" stroke="#2B2D42" stroke-width="1.5"/>
+    <circle cx="400" cy="400" r="117.33333333333333" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="400" cy="400" r="176" fill="none" stroke="#2B2D42" stroke-width="1.5"/>
+    <circle cx="400" cy="400" r="234.66666666666666" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="400" cy="400" r="293.3333333333333" fill="none" stroke="#2B2D42" stroke-width="1.5"/>
+    <path d="M 488 400 A 40 40 0 0 1 651.0789203019206 481.5804865149861 A 40 40 0 0 1 471.1934955049954 451.7251022017376 Z" fill="none" stroke="#2B2D42" stroke-width="3"/>
+    <circle cx="651.0789203019206" cy="481.5804865149861" r="6" fill="#D4AF37" stroke="#2B2D42" stroke-width="2"/>
+    <path d="M 471.1934955049954 451.7251022017376 A 40 40 0 0 1 555.1753066052129 613.5804865149861 A 40 40 0 0 1 427.1934955049954 483.6929734339735 Z" fill="none" stroke="#2B2D42" stroke-width="3"/>
+    <circle cx="555.1753066052129" cy="613.5804865149861" r="6" fill="#D4AF37" stroke="#2B2D42" stroke-width="2"/>
+    <path d="M 427.1934955049954 483.6929734339735 A 40 40 0 0 1 400 664 A 40 40 0 0 1 372.8065044950046 483.6929734339735 Z" fill="none" stroke="#2B2D42" stroke-width="3"/>
+    <circle cx="400" cy="664" r="6" fill="#D4AF37" stroke="#2B2D42" stroke-width="2"/>
+    <path d="M 372.8065044950046 483.6929734339735 A 40 40 0 0 1 244.82469339478712 613.5804865149861 A 40 40 0 0 1 328.8065044950046 451.7251022017376 Z" fill="none" stroke="#2B2D42" stroke-width="3"/>
+    <circle cx="244.82469339478712" cy="613.5804865149861" r="6" fill="#D4AF37" stroke="#2B2D42" stroke-width="2"/>
+    <path d="M 328.8065044950046 451.7251022017376 A 40 40 0 0 1 148.92107969807947 481.58048651498615 A 40 40 0 0 1 312 400 Z" fill="none" stroke="#2B2D42" stroke-width="3"/>
+    <circle cx="148.92107969807947" cy="481.58048651498615" r="6" fill="#D4AF37" stroke="#2B2D42" stroke-width="2"/>
+    <path d="M 312 400 A 40 40 0 0 1 148.92107969807944 318.4195134850139 A 40 40 0 0 1 328.8065044950046 348.2748977982624 Z" fill="none" stroke="#2B2D42" stroke-width="3"/>
+    <circle cx="148.92107969807944" cy="318.4195134850139" r="6" fill="#D4AF37" stroke="#2B2D42" stroke-width="2"/>
+    <path d="M 328.8065044950046 348.2748977982624 A 40 40 0 0 1 244.82469339478706 186.4195134850139 A 40 40 0 0 1 372.8065044950046 316.3070265660265 Z" fill="none" stroke="#2B2D42" stroke-width="3"/>
+    <circle cx="244.82469339478706" cy="186.4195134850139" r="6" fill="#D4AF37" stroke="#2B2D42" stroke-width="2"/>
+    <path d="M 372.8065044950046 316.3070265660265 A 40 40 0 0 1 399.99999999999994 136 A 40 40 0 0 1 427.1934955049953 316.3070265660265 Z" fill="none" stroke="#2B2D42" stroke-width="3"/>
+    <circle cx="399.99999999999994" cy="136" r="6" fill="#D4AF37" stroke="#2B2D42" stroke-width="2"/>
+    <path d="M 427.1934955049953 316.3070265660265 A 40 40 0 0 1 555.1753066052129 186.41951348501385 A 40 40 0 0 1 471.1934955049954 348.2748977982624 Z" fill="none" stroke="#2B2D42" stroke-width="3"/>
+    <circle cx="555.1753066052129" cy="186.41951348501385" r="6" fill="#D4AF37" stroke="#2B2D42" stroke-width="2"/>
+    <path d="M 471.1934955049954 348.2748977982624 A 40 40 0 0 1 651.0789203019206 318.4195134850138 A 40 40 0 0 1 488 400 Z" fill="none" stroke="#2B2D42" stroke-width="3"/>
+    <circle cx="651.0789203019206" cy="318.4195134850138" r="6" fill="#D4AF37" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="400" cy="400" r="63.36" fill="#FAF7F2" stroke="#2B2D42" stroke-width="2.5"/>
+    <circle cx="400" cy="400" r="35.2" fill="#D47A60" opacity="0.3"/>
+    <circle cx="400" cy="400" r="17.6" fill="#2B2D42"/>
+  </g>
+</svg>

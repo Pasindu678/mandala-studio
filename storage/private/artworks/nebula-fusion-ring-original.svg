@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <rect width="800" height="800" fill="#FAF7F2"/>
+  <g id="mandala-body">
+    <circle cx="400" cy="400" r="352" fill="#FAF7F2" stroke="#2B2D42" stroke-width="3" stroke-dasharray="6,4" opacity="0.6"/>
+    <circle cx="400" cy="400" r="334.4" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="400" cy="400" r="58.666666666666664" fill="none" stroke="#2B2D42" stroke-width="1.5"/>
+    <circle cx="400" cy="400" r="117.33333333333333" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="400" cy="400" r="176" fill="none" stroke="#2B2D42" stroke-width="1.5"/>
+    <circle cx="400" cy="400" r="234.66666666666666" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="400" cy="400" r="293.3333333333333" fill="none" stroke="#2B2D42" stroke-width="1.5"/>
+    <path d="M 470.4 400 S 580.7411705698582 469.3800350319701 689.0050072256893 477.4386582946742" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="689.0050072256893" cy="477.4386582946742" r="4" fill="#6B9080" stroke="#2B2D42" stroke-width="1.5"/>
+    <path d="M 460.9681884264245 435.2 S 521.8364277072485 550.4554581380696 611.566348931015 611.566348931015" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="611.566348931015" cy="611.566348931015" r="4" fill="#6B9080" stroke="#2B2D42" stroke-width="1.5"/>
+    <path d="M 435.2 460.9681884264245 S 430.28571243178874 591.2164627392187 477.43865829467427 689.0050072256893" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="477.43865829467427" cy="689.0050072256893" r="4" fill="#6B9080" stroke="#2B2D42" stroke-width="1.5"/>
+    <path d="M 400 470.4 S 330.6199649680299 580.7411705698582 322.56134170532584 689.0050072256893" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="322.56134170532584" cy="689.0050072256893" r="4" fill="#6B9080" stroke="#2B2D42" stroke-width="1.5"/>
+    <path d="M 364.8 460.9681884264245 S 249.54454186193047 521.8364277072486 188.433651068985 611.566348931015" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="188.433651068985" cy="611.566348931015" r="4" fill="#6B9080" stroke="#2B2D42" stroke-width="1.5"/>
+    <path d="M 339.0318115735755 435.20000000000005 S 208.78353726078132 430.2857124317888 110.99499277431079 477.43865829467427" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="110.99499277431079" cy="477.43865829467427" r="4" fill="#6B9080" stroke="#2B2D42" stroke-width="1.5"/>
+    <path d="M 329.6 400 S 219.2588294301417 330.61996496802993 110.99499277431079 322.5613417053258" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="110.99499277431079" cy="322.5613417053258" r="4" fill="#6B9080" stroke="#2B2D42" stroke-width="1.5"/>
+    <path d="M 339.0318115735755 364.8 S 278.1635722927514 249.54454186193047 188.43365106898494 188.433651068985" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="188.43365106898494" cy="188.433651068985" r="4" fill="#6B9080" stroke="#2B2D42" stroke-width="1.5"/>
+    <path d="M 364.79999999999995 339.0318115735755 S 369.71428756821126 208.78353726078132 322.56134170532556 110.99499277431084" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="322.56134170532556" cy="110.99499277431084" r="4" fill="#6B9080" stroke="#2B2D42" stroke-width="1.5"/>
+    <path d="M 400 329.6 S 469.3800350319702 219.25882943014173 477.43865829467404 110.99499277431073" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="477.43865829467404" cy="110.99499277431073" r="4" fill="#6B9080" stroke="#2B2D42" stroke-width="1.5"/>
+    <path d="M 435.19999999999993 339.0318115735755 S 550.4554581380695 278.1635722927514 611.5663489310148 188.43365106898474" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="611.5663489310148" cy="188.43365106898474" r="4" fill="#6B9080" stroke="#2B2D42" stroke-width="1.5"/>
+    <path d="M 460.9681884264245 364.79999999999995 S 591.2164627392187 369.71428756821126 689.0050072256892 322.56134170532556" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="689.0050072256892" cy="322.56134170532556" r="4" fill="#6B9080" stroke="#2B2D42" stroke-width="1.5"/>
+    <circle cx="400" cy="400" r="63.36" fill="#FAF7F2" stroke="#2B2D42" stroke-width="2.5"/>
+    <circle cx="400" cy="400" r="35.2" fill="#D47A60" opacity="0.3"/>
+    <circle cx="400" cy="400" r="17.6" fill="#2B2D42"/>
+  </g>
+</svg>

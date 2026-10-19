@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <rect width="800" height="800" fill="#FAF7F2"/>
+  <g id="mandala-body">
+    <circle cx="400" cy="400" r="352" fill="#FAF7F2" stroke="#2B2D42" stroke-width="3" stroke-dasharray="6,4" opacity="0.6"/>
+    <circle cx="400" cy="400" r="334.4" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="400" cy="400" r="88" fill="none" stroke="#2B2D42" stroke-width="1.5"/>
+    <circle cx="400" cy="400" r="176" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="400" cy="400" r="264" fill="none" stroke="#2B2D42" stroke-width="1.5"/>
+    <path d="M 470.4 400 S 543.8728382124235 529.543685391075 659.1148008123041 549.5999999999999" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="659.1148008123041" cy="549.5999999999999" r="4" fill="#6B9080" stroke="#2B2D42" stroke-width="1.5"/>
+    <path d="M 435.2 460.9681884264245 S 359.7482966576818 589.3693755020648 400 699.2" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="400" cy="699.2" r="4" fill="#6B9080" stroke="#2B2D42" stroke-width="1.5"/>
+    <path d="M 364.8 460.9681884264245 S 215.87545844525826 459.82569011098985 140.885199187696 549.6000000000001" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="140.885199187696" cy="549.6000000000001" r="4" fill="#6B9080" stroke="#2B2D42" stroke-width="1.5"/>
+    <path d="M 329.6 400 S 256.1271617875764 270.4563146089251 140.8851991876959 250.4000000000001" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="140.8851991876959" cy="250.4000000000001" r="4" fill="#6B9080" stroke="#2B2D42" stroke-width="1.5"/>
+    <path d="M 364.79999999999995 339.0318115735755 S 440.2517033423181 210.63062449793517 399.99999999999994 100.80000000000001" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="399.99999999999994" cy="100.80000000000001" r="4" fill="#6B9080" stroke="#2B2D42" stroke-width="1.5"/>
+    <path d="M 435.19999999999993 339.0318115735755 S 584.1245415547417 340.17430988901 659.1148008123039 250.39999999999986" fill="none" stroke="#2B2D42" stroke-width="2"/>
+    <circle cx="659.1148008123039" cy="250.39999999999986" r="4" fill="#6B9080" stroke="#2B2D42" stroke-width="1.5"/>
+    <circle cx="400" cy="400" r="63.36" fill="#FAF7F2" stroke="#2B2D42" stroke-width="2.5"/>
+    <circle cx="400" cy="400" r="35.2" fill="#D47A60" opacity="0.3"/>
+    <circle cx="400" cy="400" r="17.6" fill="#2B2D42"/>
+  </g>
+</svg>
