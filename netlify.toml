@@ -4,7 +4,9 @@
 
 [build.environment]
   NODE_VERSION = "20"
-  NPM_FLAGS = "--legacy-peer-deps"
+  DATABASE_URL = "file:./dev.db"
+  JWT_SECRET = "mandala_studio_super_secret_jwt_key_2026_xyz"
+  NEXT_PUBLIC_PAYMENT_MODE = "mock"
 
 [[headers]]
   for = "/uploads/*"
