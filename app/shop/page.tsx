@@ -29,36 +29,42 @@ export default async function ShopPage({ searchParams }: ShopPageProps) {
     ];
   }
 
-  const products = await prisma.product.findMany({
-    where: productWhere,
-    orderBy: { createdAt: 'desc' },
-    include: {
-      _count: {
-        select: { artworks: true },
-      },
-    },
-  });
-
-  // If "INDIVIDUAL_ARTWORK" or "All" is selected, also fetch premium individual artworks
+  let products: any[] = [];
   let premiumArtworks: any[] = [];
-  if (!currentType || currentType === 'INDIVIDUAL_ARTWORK') {
-    const artWhere: any = {
-      isPublished: true,
-      isArchived: false,
-      isFree: false,
-    };
-    if (searchQuery) {
-      artWhere.OR = [
-        { title: { contains: searchQuery } },
-        { description: { contains: searchQuery } },
-      ];
-    }
-    premiumArtworks = await prisma.artwork.findMany({
-      where: artWhere,
-      include: { category: true },
-      orderBy: { salesCount: 'desc' },
-      take: 8,
+
+  try {
+    products = await prisma.product.findMany({
+      where: productWhere,
+      orderBy: { createdAt: 'desc' },
+      include: {
+        _count: {
+          select: { artworks: true },
+        },
+      },
     });
+
+    // If "INDIVIDUAL_ARTWORK" or "All" is selected, also fetch premium individual artworks
+    if (!currentType || currentType === 'INDIVIDUAL_ARTWORK') {
+      const artWhere: any = {
+        isPublished: true,
+        isArchived: false,
+        isFree: false,
+      };
+      if (searchQuery) {
+        artWhere.OR = [
+          { title: { contains: searchQuery } },
+          { description: { contains: searchQuery } },
+        ];
+      }
+      premiumArtworks = await prisma.artwork.findMany({
+        where: artWhere,
+        include: { category: true },
+        orderBy: { salesCount: 'desc' },
+        take: 8,
+      });
+    }
+  } catch (err) {
+    console.error('ShopPage database query error:', err);
   }
 
   const productTypes = [

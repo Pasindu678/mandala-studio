@@ -43,6 +43,6 @@ export async function POST(req: NextRequest) {
     });
   } catch (error: any) {
     console.error('Discount validation error:', error);
-    return NextResponse.json({ valid: false, error: 'Server error' }, { status: 500 });
+    return NextResponse.json({ valid: false, error: error?.message || 'Server error' }, { status: 500 });
   }
 }

@@ -10,26 +10,59 @@ interface ArtworkDetailPageProps {
   params: Promise<{ slug: string }>;
 }
 
+export async function generateStaticParams() {
+  try {
+    const artworks = await prisma.artwork.findMany({
+      where: { isPublished: true, isArchived: false },
+      select: { slug: true },
+    });
+    return artworks.map((art) => ({ slug: art.slug }));
+  } catch {
+    return [];
+  }
+}
 
 export default async function ArtworkDetailPage({ params }: ArtworkDetailPageProps) {
   const { slug } = await params;
 
-  const artwork = await prisma.artwork.findUnique({
-    where: { slug },
-    include: {
-      category: true,
-    },
-  });
+  let artwork: any = null;
+  let relatedArtworks: any[] = [];
+
+  try {
+    artwork = await prisma.artwork.findUnique({
+      where: { slug },
+      include: {
+        category: true,
+      },
+    });
+
+    if (artwork) {
+      // Related artworks in the same category
+      relatedArtworks = await prisma.artwork.findMany({
+        where: {
+          categoryId: artwork.categoryId,
+          isPublished: true,
+          isArchived: false,
+          id: { not: artwork.id },
+        },
+        include: { category: true },
+        orderBy: { viewsCount: 'desc' },
+        take: 4,
+      });
+
+      // Increment views count asynchronously
+      await prisma.artwork.update({
+        where: { id: artwork.id },
+        data: { viewsCount: { increment: 1 } },
+      }).catch(() => {});
+    }
+  } catch (err) {
+    console.error('ArtworkDetailPage database query error:', err);
+  }
 
   if (!artwork || !artwork.isPublished || artwork.isArchived) {
     notFound();
   }
-
-  // Increment views count asynchronously
-  await prisma.artwork.update({
-    where: { id: artwork.id },
-    data: { viewsCount: { increment: 1 } },
-  }).catch(() => {});
 
   let tags: string[] = [];
   try {
@@ -37,19 +70,6 @@ export default async function ArtworkDetailPage({ params }: ArtworkDetailPagePro
   } catch {
     tags = [];
   }
-
-  // Related artworks in the same category
-  const relatedArtworks = await prisma.artwork.findMany({
-    where: {
-      categoryId: artwork.categoryId,
-      isPublished: true,
-      isArchived: false,
-      id: { not: artwork.id },
-    },
-    include: { category: true },
-    orderBy: { viewsCount: 'desc' },
-    take: 4,
-  });
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-14">

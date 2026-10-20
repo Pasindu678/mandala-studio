@@ -9,30 +9,50 @@ interface CategoryPageProps {
   params: Promise<{ slug: string }>;
 }
 
+export async function generateStaticParams() {
+  try {
+    const categories = await prisma.category.findMany({
+      where: { isPublished: true },
+      select: { slug: true },
+    });
+    return categories.map((cat) => ({ slug: cat.slug }));
+  } catch {
+    return [];
+  }
+}
+
 export default async function CategoryPage({ params }: CategoryPageProps) {
   const { slug } = await params;
 
-  const category = await prisma.category.findUnique({
-    where: { slug },
-    include: {
-      artworks: {
-        where: { isPublished: true, isArchived: false },
-        orderBy: { displayOrder: 'asc' },
-        include: { category: true },
+  let category: any = null;
+  let otherCategories: any[] = [];
+
+  try {
+    category = await prisma.category.findUnique({
+      where: { slug },
+      include: {
+        artworks: {
+          where: { isPublished: true, isArchived: false },
+          orderBy: { displayOrder: 'asc' },
+          include: { category: true },
+        },
       },
-    },
-  });
+    });
+
+    if (category) {
+      otherCategories = await prisma.category.findMany({
+        where: { isPublished: true, id: { not: category.id } },
+        orderBy: { displayOrder: 'asc' },
+        take: 5,
+      });
+    }
+  } catch (err) {
+    console.error('CategoryPage database query error:', err);
+  }
 
   if (!category || !category.isPublished) {
     notFound();
   }
-
-  // Other categories for exploration
-  const otherCategories = await prisma.category.findMany({
-    where: { isPublished: true, id: { not: category.id } },
-    orderBy: { displayOrder: 'asc' },
-    take: 5,
-  });
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
@@ -95,7 +115,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
           </div>
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {category.artworks.map((art) => (
+            {category.artworks.map((art: any) => (
               <ArtworkCard
                 key={art.id}
                 id={art.id}

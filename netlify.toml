@@ -1,12 +1,15 @@
 [build]
-  command = "npm run build"
+  command = "npx prisma generate && npm run build"
   publish = ".next"
 
 [build.environment]
   NODE_VERSION = "20"
-  DATABASE_URL = "file:./dev.db"
   JWT_SECRET = "mandala_studio_super_secret_jwt_key_2026_xyz"
   NEXT_PUBLIC_PAYMENT_MODE = "mock"
+  DATABASE_URL = "file:./prisma/dev.db"
+
+[functions]
+  included_files = ["prisma/**", "storage/**", "public/uploads/**"]
 
 [[headers]]
   for = "/uploads/*"

@@ -26,17 +26,6 @@ export default async function GalleryPage({ searchParams }: GalleryPageProps) {
   const currentPage = parseInt(params.page || '1', 10);
   const pageSize = 12;
 
-  // Fetch all published categories for filter tabs
-  const categories = await prisma.category.findMany({
-    where: { isPublished: true },
-    orderBy: { displayOrder: 'asc' },
-    include: {
-      _count: {
-        select: { artworks: { where: { isPublished: true, isArchived: false } } },
-      },
-    },
-  });
-
   // Build Prisma where filter
   const where: any = {
     isPublished: true,
@@ -79,16 +68,36 @@ export default async function GalleryPage({ searchParams }: GalleryPageProps) {
     orderBy = { salesCount: 'desc' };
   }
 
-  const totalCount = await prisma.artwork.count({ where });
-  const totalPages = Math.ceil(totalCount / pageSize);
+  // Fetch data safely
+  let categories: any[] = [];
+  let artworks: any[] = [];
+  let totalCount = 0;
 
-  const artworks = await prisma.artwork.findMany({
-    where,
-    orderBy,
-    include: { category: true },
-    skip: (currentPage - 1) * pageSize,
-    take: pageSize,
-  });
+  try {
+    categories = await prisma.category.findMany({
+      where: { isPublished: true },
+      orderBy: { displayOrder: 'asc' },
+      include: {
+        _count: {
+          select: { artworks: { where: { isPublished: true, isArchived: false } } },
+        },
+      },
+    });
+
+    totalCount = await prisma.artwork.count({ where });
+
+    artworks = await prisma.artwork.findMany({
+      where,
+      orderBy,
+      include: { category: true },
+      skip: (currentPage - 1) * pageSize,
+      take: pageSize,
+    });
+  } catch (err) {
+    console.error('Gallery database query error:', err);
+  }
+
+  const totalPages = Math.max(1, Math.ceil(totalCount / pageSize));
 
   // Active category object if filtered
   const activeCategory = categories.find((c) => c.slug === currentCategorySlug);

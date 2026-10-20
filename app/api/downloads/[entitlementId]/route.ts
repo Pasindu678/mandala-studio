@@ -82,7 +82,7 @@ export async function GET(
       absolutePath = path.join(process.cwd(), 'public', 'uploads', cleanRel);
     }
 
-    if (!fs.existsSync(absolutePath)) {
+    if (!fs.existsSync(/*turbopackIgnore: true*/ absolutePath)) {
       return NextResponse.json({ error: 'File on disk not found' }, { status: 404 });
     }
 
@@ -100,13 +100,12 @@ export async function GET(
           entitlementId: entitlement.id,
           userId: currentUser?.userId || null,
           ipAddress,
-          userAgent,
         },
       }),
     ]);
 
     // 7. Stream file bytes securely
-    const fileBuffer = fs.readFileSync(absolutePath);
+    const fileBuffer = fs.readFileSync(/*turbopackIgnore: true*/ absolutePath);
 
     return new NextResponse(fileBuffer, {
       status: 200,
